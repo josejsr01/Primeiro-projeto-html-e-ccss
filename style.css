@@ -1,0 +1,90 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+p {
+ color: white;
+ font-size: 20px;
+}
+
+button {
+ color: white;
+ background-color: #C51111;
+ border-radius: 3px;
+ border: none;
+ width: 140px;
+ height: 45px;
+ cursor: pointer;
+ font-weight: bold;
+ margin-top: 25px;
+}
+
+.logo-jose {
+ height: 200px;
+}
+
+.img-dev {
+ height: 300px;
+}
+
+body{
+ height: 100vh;
+}
+
+
+.sobre-nós {
+ width: 40%;
+}
+
+.caixa-video {
+ position: fixed;
+ top: 0;
+ z-index: -1;
+}
+
+video{
+ width: 100vw;
+}
+
+.caixa-mae {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 100px;
+ height: 100vh;
+}
+
+.mascara{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+ position: fixed;
+ top: 0;
+ }
+
+ .link-wpp img{
+  height: 70px;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+ }
+
+.header{
+ display: flex;
+ align-items: center;
+ gap: 30px;
+ margin: 30px;
+}
+
+ .header img{
+  height: 95px;
+ }
+
+ .header a {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+ }
